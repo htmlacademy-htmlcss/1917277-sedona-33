@@ -10,6 +10,7 @@
         <a class="navigation-logo" href="index.html">
           <img class="page-header-logo" alt="Логотип  Site of SEDONA." src="#">
         </a>
+        </nav>
       <nav class="navigation">
         <ul class="navigation-list"> 
             <li class="navigation-item">
@@ -19,7 +20,7 @@
             <a class="navigation-link" href="#">О Седоне</a>
           </li>
            <li class="navigation-item">
-            <a class="navigation-link" href="#">Гостиницы</a>
+            <a class="navigation-link" href="catalog.html.">Гостиницы</a>
           </li>
         </ul>
           <ul class="navigation-list">
@@ -39,7 +40,7 @@
             <a class="navigation-link" href="#">
               <span class="visually-hidden">ХОЧУ СЮДА!
               </span> 
-              </a>
+           </a>
           </li>
         </ul>
       </nav>
@@ -48,9 +49,11 @@
      <main class="main-inner">
       <header class="inner-header">
         <h1 class="inner-header-title">Гостиницы Седоны</h1>
+        <ul class="breadcrumbs">
           <li class="breadcrumbs-item">
           <a class="breadcrumbs-link">Гостиницы</a>
         </li>
+        </ul>
         
       </header>
          <section class="catalog-products">
@@ -62,7 +65,7 @@
             <ul class="catalog-filter-list">
               <li class="catalog-filter-item">
                 <label class="control">
-                  <input class="control-input" type="checkbox" name="swimming pool"checked>
+                  <input class="control-input" type="checkbox" name="swimming pool" checked>
 
               Бассейн
                 </label>
@@ -81,7 +84,7 @@
               Wi-Fi
             </label>
           </li>
-          
+          </ul>
           </fieldset>
           
           <fieldset class="filter-group">
@@ -89,7 +92,7 @@
           <ul class="filter-list">
               <li class="filter-item">
                 <label class="control">
-                  <input class="control-input" type="radio" name="type of housing" value="shaving-supplies"checked>
+                  <input class="control-input" type="radio" name="type of housing" value="shaving-supplies" checked>
 
               Гостиница
                 </label>
@@ -111,6 +114,7 @@
             </ul>
           
         </fieldset>
+       </form>
         <button class="button" type="submit">Показать</button>
         <p><input type="reset"><p>
           <h3>Найдено гостиниц: 38</h3>
@@ -189,9 +193,6 @@
             <li class="pagination-item">
             <a class="pagination-link" href="#">10</a>
           </li>
-          </li>
-            </a>
-          </li>
         </ul>
           <p>Найдено гостиниц: 4<p>
              <select class="select-control" aria-label="Сортировка">
@@ -201,8 +202,7 @@
         
       </section>
     </main>
-
-
+<footer class="page-footer">
        <section class="newsletter">
       <h2 class="page-footer-title">Подпишитесь на рассылку</h2>
       <p>Подпишитесь на рассылку
@@ -216,7 +216,6 @@
           </button>
         </form>
       </section>
-       <footer class="page-footer">
        <section class="footer-social">
       <ul class="footer-social-list">
           <li class="footer-social-item">
@@ -235,7 +234,7 @@
             </a>
           </li>
         </ul>
-       <a class="footer-contacts-address-phone" href="tel:+78121212">+7 (812) 812-12-12</a>
+       <h3><a class="footer-contacts-address-phone" href="tel:+78121212">+7 (812) 812-12-12</a></h3>
        <p class="about-text"> <a class="htmlacademy-link" href="https://htmlacademy.ru/">.html academy </a> </p>
       </section>
     </footer>
